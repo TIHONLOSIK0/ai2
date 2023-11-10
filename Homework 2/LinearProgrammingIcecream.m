@@ -127,3 +127,70 @@ end
 
 % Results:
 fprintf("Optimal:\nx1: %d \nx2: %d\n",optimal_X(1),optimal_X(2));
+
+%%
+%d)
+%Find the optimal solution for the given problem by using the 
+% linprog function in MATLAB. Provide the commented (!) 
+% script with the names and student-IDs of all group members in the moodle! 
+% (2 points)
+
+% In order to use linprog function, objective, inequality constraints and
+% upper and lower bounds has to be defined according to the linprog
+% function variables. From simplex solution to vectors.
+
+% Objective Functions coefficients
+f = [-25, -30]; 
+% x1 and x2 respectively, negative values because linprog 
+% default settings finds minimised solutions  
+
+% Restating inequality constraints in matrix form
+% 4x1 + 5x2 =< 40
+% x1 =< 8
+% x2 =< 5
+A = [4, 5; 1, 0; 0, 1]; % Coefficients of x1 and x2 in the constraints
+b = [40; 8; 5]; % Right side coefficients of the matrix
+
+
+% equality constraints are none, can be defined in function as []
+
+% Definition of the bounds for linprog function variables
+Lowerbound = [0; 0]; % Lower bounds 
+Upperbound = [Inf; Inf]; % no Upper bounds
+
+% Solve Using linprog function
+[LinprogSol, fval, exitflag] = linprog(f, A, b, [], [], Lowerbound, Upperbound); 
+% LinprogSol is a vector with optimised x1, and x2 as solutions.
+% fval calculates the function value (total profit) at the optimised
+% solution exitflag is an output that indicates why it exited the function, 
+% if it does not satisfy feasibilty
+
+% Display the optimal solution in solution polyhedron figure
+plot(LinprogSol(1), LinprogSol(2), 'ro'); 
+
+% Plot the optimal solution as a red dot on polyhedron
+
+% Optimised Solution Using linprog
+disp('Optimised Solution:');
+disp(['x1 = ', num2str(LinprogSol(1)), ' kg']);
+disp(['x2 = ', num2str(LinprogSol(2)), ' kg']);
+disp(['Total Profit = ', num2str(-fval), ' euro']);
+
+
+% e) Describe what a Linear Program and what a Feasibility Test is. What is
+% the difference? (2 points)
+% Linear program aims to optimise the solutions of a given constraint and
+% objective functions. it is for linear problems that have a clear goal to
+% minimize or in our case maximise the objective functions by giving the
+% optimised solution variables while staying within the defined
+% constraints.
+
+% Feasibility tests however, is a method that determines wether the
+% given values for the variables, or a set of variables satisfies the
+% constraints of the problem and then checks if the solution is feasible or
+% not.
+
+% The main difference between Linear program and feasibility test is that
+% linear program optimises solution variables
+% for a problem while a Feasibility Test is to check if a 
+% solution is valid for a given Linear Program.
