@@ -1,9 +1,7 @@
 %--------------------------------------------------------------------------
 % Submission of:
-% Name, Student-ID
-% Name, Student-ID
-% Name, Student-ID
-% Name, Student-ID
+% Tikhon Riazantsev 382715
+% Agastya Heryudhanto 286824
 %--------------------------------------------------------------------------
 
 function [ w, iter, exitflag ] = perceptronPBPL( X, w, eta, maxIter )
