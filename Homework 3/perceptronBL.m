@@ -80,7 +80,7 @@ while ((~exit) && (iter < maxIter))
                 exitflag = 0;
             end
 
-        end % This Loop only updates the weighting and accumulates in a summed vector
+        end % This Loop only updates the adjusments (delta) weighting and accumulates in a summed vector (sigma_w)
 
             % Update the weight vector using accumulated weight and
             % learning rate eta, compared to PBPL, only done once
