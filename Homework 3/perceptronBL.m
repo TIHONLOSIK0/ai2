@@ -89,7 +89,7 @@ end
 
         % additional exit condition, time processed exceeds 8 seconds
     if toc(StartTime) >= StopTime
-        disp('Process takes longer than 8 seconds, PBPL halted');
+        disp('Process takes longer than 8 seconds, BL halted');
         exit = 1; % if algorithmn converges too slowly, exits
     end
    
