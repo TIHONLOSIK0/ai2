@@ -85,7 +85,7 @@ end
         if norm(w - w_prev) < epsilon 
             exit = 1; % exit variable set to true when epsilon is very small
         end
-        fprintf('Iteration %d: norm(w - w_old) = %f\n', iter, norm(w - w_prev));
+        %fprintf('Iteration %d: norm(w - w_prev) = %f\n', iter, norm(w - w_prev)); ( used for debugging )
 
         % additional exit condition, time processed exceeds 8 seconds
     if toc(StartTime) >= StopTime
