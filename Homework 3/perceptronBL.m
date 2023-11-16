@@ -47,12 +47,17 @@ while ((~exit) && (iter < maxIter))
     iter = iter + 1;
     
     % ---------------------------------
-    StartTime = 0;
+        StartTime = 0;
     % additional exit condition, checks if process takes too much time
     StopTime = 8;  % 8 seconds
-if StartTime == 0 
+    if StartTime == 0 
     StartTime = tic; % begins counting time.
-end
+    end
+    exitflag = 1; % Assume a solution is found
+
+        % Initialize the sum accumulated weight vector for this iteration        
+        sigma_w = [0; 0];
+
         % Updates the weight vector, stores the current weight vector in
         % variable w_prev which will be used to check for convergence later
         w_prev = w;
@@ -67,14 +72,18 @@ end
             % Calls perceptronOutput function for data point i
             y_i = perceptronOutput(x_i, w);
 
+            % Check if the perceptron needs adjustment
+            if y_i ~= s_i
             % Update the weight adjustment vector
             sigma_w = sigma_w + (s_i - y_i) * x_i';
+            % Reset iteration count if there's progress
+                exitflag = 0;
+            end
 
         end % This Loop only updates the weighting and accumulates in a summed vector
 
-            % perceptron formula for learning. In batch learning, this is applied
-            % only once with the sum of all adjustments made to the weight
-            % vector
+            % Update the weight vector using accumulated weight and
+            % learning rate eta
             w = w + eta * sigma_w;
 
         % Implementation for exit condition, check for convergence by
@@ -84,25 +93,21 @@ end
         epsilon = 1e-2;
         if norm(w - w_prev) < epsilon 
             exit = 1; % exit variable set to true when epsilon is very small
-        end
-        %fprintf('Iteration %d: norm(w - w_prev) = %f\n', iter, norm(w - w_prev)); ( used for debugging )
+        
+            % additional exit condition, time processed exceeds 8 seconds
+            if toc(StartTime) >= StopTime
+            disp('Process takes longer than 8 seconds, BL halted');
+            exit = 1; % if algorithmn converges too slowly, exits
+            end
 
-        % additional exit condition, time processed exceeds 8 seconds
-    if toc(StartTime) >= StopTime
-        disp('Process takes longer than 8 seconds, BL halted');
-        exit = 1; % if algorithmn converges too slowly, exits
-    end
    
     end
 
-    % Set exitflag based on the exit condition
-    if exit
-        exitflag = 1;
-        % Additional exit condition If the maximum number of iterations 
-        % is reached without convergence, set exitflag to 0
-    if iter == maxIter && ~exit
-        exitflag = 0;
-fprintf('Maximum iterations reached without convergence.\n');
+     % Check exit condition
+        if exitflag
+            break;
+        end
+        
     % ---------------------------------
     
 end
