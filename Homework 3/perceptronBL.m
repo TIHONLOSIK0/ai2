@@ -101,7 +101,7 @@ while ((~exit) && (iter < maxIter))
             end
 
    
-    end
+        end
 
      % Check exit condition
         if exitflag
