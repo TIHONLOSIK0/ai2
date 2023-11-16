@@ -76,7 +76,7 @@ while ((~exit) && (iter < maxIter))
             w = w + eta * (s_i - y_i) * x_i';
             exitflag = 0; % Reset iteration count if there's progress
             end
-        end % This loop updates the weight vector using the perceptron learning rule for every datapoint
+        end % This loop updates the weight vector using the perceptron learning rule for every pattern
 
 
         % Implementation for exit condition, check for convergence by
