@@ -83,7 +83,7 @@ while ((~exit) && (iter < maxIter))
         end % This Loop only updates the weighting and accumulates in a summed vector
 
             % Update the weight vector using accumulated weight and
-            % learning rate eta
+            % learning rate eta, compared to PBPL, only done once
             w = w + eta * sigma_w;
 
         % Implementation for exit condition, check for convergence by
