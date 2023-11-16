@@ -11,7 +11,7 @@ w(t+1) = w(t) + eta * Sigma (s_i - y_i) * x_i
 where w is the weight at iteration t, eta is the learning rate, s_i is the label, y_i is the percepton output and 
 x_i is the i-th iteration of the input at t.
 The consequence of this main difference is that PBPL updates its weighting imediately after each input pattern
-where as BL delays its update until all the patterns are met.
+whereas BL delays its update until all the patterns are met.
 
 by basing the adjustments of the weights one pattern at a time, PBPL changes the weight vector far more rapidly than BL,
 and likely reactive and better adapted to sudden changes in the data if it contains few high impact noise.
