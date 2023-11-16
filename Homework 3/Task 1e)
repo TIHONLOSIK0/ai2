@@ -1,21 +1,21 @@
 e) What is the main difference between pattern-by-pattern learning and batch learning? Give one advantage of each of both methods. (3 points)
 
-Their main difference lies in the method of updating thier weights, given the weight Update for Pattern-by-Pattern Learning can be performed by:
+Their main difference lies in the method of updating their weights, given the weight Update for Pattern-by-Pattern Learning can be performed by:
 
-W(t+1) = W(t) + Eta * (si - yi) * xi
+W(t+1) = W(t) + Eta * (s_i - y_i) * x_i
 
 and weight update for Batch Learning:
 
-w(t+1) = w(t) + eta * Sigma (si - yi) * xi
+w(t+1) = w(t) + eta * Sigma (s_i - y_i) * x_i
 
-where w us thee weight at iteration t, eta is the learning rate, s is the label, yi is the percepton output and 
-x is the i-th iteration of the input at t.
+where w is the weight at iteration t, eta is the learning rate, s_i is the label, y_i is the percepton output and 
+x_i is the i-th iteration of the input at t.
 The main difference is that PBPL updates its weighting imediately after each input pattern
 where as BL delays its update until all the patterns are met.
 
 by basing the adjustments of the weights one pattern at a time, PBPL changes the weight vector far more rapidly than BL,
-and likely reactive and better adaoted to sudden changes in the data if it contains little noise.
-consequently, Batch learning is slow and smoother in its convergence, likely performing better when high noise is
+and likely reactive and better adapted to sudden changes in the data if it contains few high impact noise.
+on the contrary, Batch learning is slow and smoother in its convergence, likely performing better when high noise is
 consistent in the data as it take advantage of considering the entire dataset and is less affected by sudden spikes of noise.
-In terms of computational resources, Batch learning is more efficient and where data is more stable, PBPL is more suitable when the
-datasets are dynamic, such as predicting weather.
+In terms of computational resources, Batch learning is more computationally efficient and performs better where data is more stable, PBPL is more suitable when the
+datasets are dynamic, such as in monitoring weather patterns or traffic conditions.
