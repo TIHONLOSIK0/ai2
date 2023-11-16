@@ -47,17 +47,19 @@ while ((~exit) && (iter < maxIter))
     iter = iter + 1;
     
     % ---------------------------------
-    % additional exit condition, checks if process takes too much time
+    StartTime = 0;
+    % Additional exit condition, checks if process takes too much time
     StopTime = 8;  % 8 seconds
-if StartTime == 0 
-    StartTime = tic; % begins counting time.
-end
+    if StartTime == 0 
+    StartTime = tic; % Begins counting time.
+    end
+    exitflag = 1; % Assume a solution is found
 
         % Updates the weight vector, stores the current weight vector in
         % variable w_prev which will be used to check for convergence later
         w_prev = w;
 
-        % begins loop to Iterate through each data point i in Matrix 'X'
+        % Begins loop to Iterate through each data point i in Matrix 'X'
         for i = 1:n
             
             x_i = X(i, 1:end-1);  % Get current data point i
@@ -66,9 +68,13 @@ end
             % Calls perceptronOutput function for data point i
             y_i = perceptronOutput(x_i, w);
 
-            % perceptron formula for learning, for the data point i and the
+            % Check if the perceptron needs adjustment
+            if y_i ~= s_i
+            % Perceptron formula for learning, for the data point i and the
             % current weight vector
             w = w + eta * (s_i - y_i) * x_i';
+            exitflag = 0; % Reset iteration count if there's progress
+            end
         end % This loop updates the weight vector using the perceptron learning rule for every datapoint
 
 
@@ -83,26 +89,26 @@ end
         %fprintf('Iteration %d: norm(w - w_prev) = %f\n', iter, norm(w - w_prev)); (used for debugging)
 
         % additional exit condition, time processed exceeds 8 seconds
-    if toc(StartTime) >= StopTime
+        if toc(StartTime) >= StopTime
         disp('Process takes longer than 8 seconds, PBPL halted');
         exit = 1; % if algorithmn converges too slowly, exits
-    end
+        end
    
-
+        % Check exit condition
+        if exitflag
+            break;
+        end
     end
 
-    % Set exitflag based on exit condition
-    if exit
-        exitflag = 1;
-    end
+    
         % Additional exit condition If the maximum number of iterations 
         % is reached without convergence, set exitflag to 0
     if iter == maxIter && ~exit
         exitflag = 0;
-fprintf('Maximum iterations reached without convergence.\n');
+    fprintf('Maximum iterations reached without convergence.\n');
 
     % ---------------------------------
     
-end
+    end
 
 end
