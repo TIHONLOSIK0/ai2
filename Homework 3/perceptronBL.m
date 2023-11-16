@@ -3,6 +3,7 @@
 % Tikhon Riazantsev 382715
 % Agastya Heryudhanto 286824
 %--------------------------------------------------------------------------
+% All tasks completed. Code is ready for submission.
 
 function [ w, iter, exitflag ] = perceptronBL( X, w, eta, maxIter )
 
