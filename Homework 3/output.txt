@@ -1,0 +1,90 @@
+[Warning: The figure is too large for the page and will be cut off. Resize the figure, adjust the output size by setting
+the figure's PaperPosition property, use the 'print' command with either the  '-bestfit' or '-fillpage' options, or use
+the 'Best fit' or 'Fill page' options on the 'Print Preview' window.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m', 146)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m',146,0)">line 146</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('saveas', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m',181,0)">line 181</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('perceptronTest', 'C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 3\perceptronTest.m', 41)" style="font-weight:bold">perceptronTest</a> (<a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 3\perceptronTest.m',41,0)">line 41</a>)] 
+Perceptron test instance #1 (Pattern-by-pattern learning).
+----------------------------------------------------------
+           Exit flag:  1
+       Weight vector:  -1  1
+Number of iterations:  2
+<a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 3\perceptronTest.m',64,1)">64  </a>[wNew, iter, exitflag] = perceptronBL(X, w, eta, maxIter);
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+[Warning: The figure is too large for the page and will be cut off. Resize the figure, adjust the output size by setting
+the figure's PaperPosition property, use the 'print' command with either the  '-bestfit' or '-fillpage' options, or use
+the 'Best fit' or 'Fill page' options on the 'Print Preview' window.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m', 146)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m',146,0)">line 146</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('saveas', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m',181,0)">line 181</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('perceptronTest', 'C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 3\perceptronTest.m', 75)" style="font-weight:bold">perceptronTest</a> (<a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 3\perceptronTest.m',75,0)">line 75</a>)] 
+<a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 3\perceptronTest.m',77,1)">77  </a>disp([13 'Perceptron test instance #1 (Batch learning).']);
+if system_dependent('IsDebugMode')==1, dbstep; end
+Perceptron test instance #1 (Batch learning).
+if system_dependent('IsDebugMode')==1, dbstep; end
+---------------------------------------------
+if system_dependent('IsDebugMode')==1, dbstep; end
+           Exit flag:  0
+if system_dependent('IsDebugMode')==1, dbstep; end
+       Weight vector:  -10  19
+if system_dependent('IsDebugMode')==1, dbstep; end
+Number of iterations:  10
+if system_dependent('IsDebugMode')==1, dbquit; end
+perceptronTest
+[Warning: File not found or permission denied] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('perceptronTest', 'C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 3\perceptronTest.m', 6)" style="font-weight:bold">perceptronTest</a> (<a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 3\perceptronTest.m',6,0)">line 6</a>)] 
+[Warning: The figure is too large for the page and will be cut off. Resize the figure, adjust the output size by setting
+the figure's PaperPosition property, use the 'print' command with either the  '-bestfit' or '-fillpage' options, or use
+the 'Best fit' or 'Fill page' options on the 'Print Preview' window.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m', 146)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m',146,0)">line 146</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('saveas', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m',181,0)">line 181</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('perceptronTest', 'C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 3\perceptronTest.m', 41)" style="font-weight:bold">perceptronTest</a> (<a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 3\perceptronTest.m',41,0)">line 41</a>)] 
+Perceptron test instance #1 (Pattern-by-pattern learning).
+----------------------------------------------------------
+           Exit flag:  1
+       Weight vector:  -1  1
+Number of iterations:  2
+[Warning: The figure is too large for the page and will be cut off. Resize the figure, adjust the output size by setting
+the figure's PaperPosition property, use the 'print' command with either the  '-bestfit' or '-fillpage' options, or use
+the 'Best fit' or 'Fill page' options on the 'Print Preview' window.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m', 146)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m',146,0)">line 146</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('saveas', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m',181,0)">line 181</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('perceptronTest', 'C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 3\perceptronTest.m', 75)" style="font-weight:bold">perceptronTest</a> (<a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 3\perceptronTest.m',75,0)">line 75</a>)] 
+Perceptron test instance #1 (Batch learning).
+---------------------------------------------
+           Exit flag:  0
+       Weight vector:  -10  19
+Number of iterations:  10
+[Warning: The figure is too large for the page and will be cut off. Resize the figure, adjust the output size by setting
+the figure's PaperPosition property, use the 'print' command with either the  '-bestfit' or '-fillpage' options, or use
+the 'Best fit' or 'Fill page' options on the 'Print Preview' window.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m', 146)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m',146,0)">line 146</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('saveas', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m',181,0)">line 181</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('perceptronTest', 'C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 3\perceptronTest.m', 111)" style="font-weight:bold">perceptronTest</a> (<a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 3\perceptronTest.m',111,0)">line 111</a>)] 
+Perceptron test instance #2 (Pattern-by-pattern learning).
+----------------------------------------------------------
+           Exit flag:  1
+       Weight vector:  0  0
+Number of iterations:  2
+[Warning: The figure is too large for the page and will be cut off. Resize the figure, adjust the output size by setting
+the figure's PaperPosition property, use the 'print' command with either the  '-bestfit' or '-fillpage' options, or use
+the 'Best fit' or 'Fill page' options on the 'Print Preview' window.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m', 146)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m',146,0)">line 146</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('saveas', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m',181,0)">line 181</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('perceptronTest', 'C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 3\perceptronTest.m', 145)" style="font-weight:bold">perceptronTest</a> (<a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 3\perceptronTest.m',145,0)">line 145</a>)] 
+Perceptron test instance #2 (Batch learning).
+---------------------------------------------
+           Exit flag:  1
+       Weight vector:  0  1
+Number of iterations:  3
