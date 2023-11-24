@@ -1,0 +1,78 @@
+{Error: <a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 4\maxMarg.m',58,14)">File: maxMarg.m Line: 58 Column: 14</a>
+Invalid text character. The text ' ' contains an unsupported non-ASCII whitespace character.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('maxMargTest', 'C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 4\maxMargTest.m', 16)" style="font-weight:bold">maxMargTest</a> (<a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 4\maxMargTest.m',16,0)">line 16</a>)
+[exitflag, w, d, margin, dists] = maxMarg( X, y );
+} 
+maxMargTest
+[Warning: File not found or permission denied] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('maxMargTest', 'C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 4\maxMargTest.m', 6)" style="font-weight:bold">maxMargTest</a> (<a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 4\maxMargTest.m',6,0)">line 6</a>)] 
+{Error: <a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 4\maxMarg.m',58,14)">File: maxMarg.m Line: 58 Column: 14</a>
+Invalid text character. The text ' ' contains an unsupported non-ASCII whitespace character.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('maxMargTest', 'C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 4\maxMargTest.m', 16)" style="font-weight:bold">maxMargTest</a> (<a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 4\maxMargTest.m',16,0)">line 16</a>)
+[exitflag, w, d, margin, dists] = maxMarg( X, y );
+} 
+maxMargTest
+[Warning: File not found or permission denied] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('maxMargTest', 'C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 4\maxMargTest.m', 6)" style="font-weight:bold">maxMargTest</a> (<a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 4\maxMargTest.m',6,0)">line 6</a>)] 
+{Error: <a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 4\maxMarg.m',58,14)">File: maxMarg.m Line: 58 Column: 14</a>
+Invalid text character. The text ' ' contains an unsupported non-ASCII whitespace character.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('maxMargTest', 'C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 4\maxMargTest.m', 16)" style="font-weight:bold">maxMargTest</a> (<a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 4\maxMargTest.m',16,0)">line 16</a>)
+[exitflag, w, d, margin, dists] = maxMarg( X, y );
+} 
+maxMargTest
+[Warning: File not found or permission denied] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('maxMargTest', 'C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 4\maxMargTest.m', 6)" style="font-weight:bold">maxMargTest</a> (<a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 4\maxMargTest.m',6,0)">line 6</a>)] 
+
+<a href = "matlab: helpview('optim','quadprogipc_min_found','CSHelpWindow');">Minimum found that satisfies the constraints</a>.
+
+Optimization completed because the objective function is non-decreasing in 
+<a href = "matlab: helpview('optim','quadprog_feasible_direction','CSHelpWindow');">feasible directions</a>, to within the value of the <a href = "matlab: helpview('optim','optimality_tolerance_msgcsh','CSHelpWindow');">optimality tolerance</a>,
+and constraints are satisfied to within the value of the <a href = "matlab: helpview('optim','constraint_tolerance','CSHelpWindow');">constraint tolerance</a>.
+
+<<a href = "matlab: createExitMsg({'optimlib:ipqpcommon:Exit1basic'},{'optimlib:ipqpcommon:Exit1detailed','4.263256e-15','1.000000e-08','1.173395e-11','2.333689e-14','1.000000e-08'},true,true);;">stopping criteria details</a>>
+Test instance #1.
+-----------------
+Weight vector w = 
+    3.0000
+   -7.0000
+
+Distance d = 
+    0.1313
+
+Margin = 
+    0.2626
+
+Distances = 
+    3.0000
+    2.0000
+    2.0000
+    6.0000
+
+[Warning: The figure is too large for the page and will be cut off. Resize the figure, adjust the output size by setting
+the figure's PaperPosition property, use the 'print' command with either the  '-bestfit' or '-fillpage' options, or use
+the 'Best fit' or 'Fill page' options on the 'Print Preview' window.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m', 146)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m',146,0)">line 146</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('saveas', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m',181,0)">line 181</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('maxMargTest', 'C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 4\maxMargTest.m', 55)" style="font-weight:bold">maxMargTest</a> (<a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 4\maxMargTest.m',55,0)">line 55</a>)] 
+
+<a href = "matlab: helpview('optim','no_solution_found_qp','CSHelpWindow');">No feasible solution found</a>.
+
+quadprog stopped because it was unable to find a point that satisfies
+the constraints within the value of the <a href = "matlab: helpview('optim','constraint_tolerance','CSHelpWindow');">constraint tolerance</a>.
+
+<<a href = "matlab: createExitMsg({'optimlib:ipqpcommon:ExitNeg21basic','quadprog'},{'optimlib:ipqpcommon:ExitNeg21detailed','4.001151e-08'},true,true);;">stopping criteria details</a>>
+Test instance #2.
+-----------------
+No solution found.
+ 
+[Warning: The figure is too large for the page and will be cut off. Resize the figure, adjust the output size by setting
+the figure's PaperPosition property, use the 'print' command with either the  '-bestfit' or '-fillpage' options, or use
+the 'Best fit' or 'Fill page' options on the 'Print Preview' window.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m', 146)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m',146,0)">line 146</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('saveas', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m',181,0)">line 181</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('maxMargTest', 'C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 4\maxMargTest.m', 101)" style="font-weight:bold">maxMargTest</a> (<a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 4\maxMargTest.m',101,0)">line 101</a>)] 
