@@ -33,25 +33,24 @@ function [exitflag, w, d, margin, dists, alphas, sv] = maxMarg05( X, y )
 % STUDENT 2: Agastya Heryudhanto 286824
 
 n = size(X,1);
-Q = (y' * y) .* (X * X');
+Q = (X' * X) .* (y' * y);
 f = -1*ones([n,1]);
 A = [];
 b = [];
 Aeq = y;
-beq = 0;
+beq = zeros([n,1]);
 lb = zeros([n,1]);
 ub = [];
 
 [alphas, ~, exitflag] = quadprog(Q,f,A,b,Aeq,beq,lb,ub);
 
-w_nonnormalised = (alphas' .* y) * X;
+w_nonnormalised = (alphas' * y) .* X;
 w = w_nonnormalised / norm(w_nonnormalised);
 
-d = -1/2*(min(w * X(y==1,:)') + max(w * X(y==-1,:)'));
-margin = 1/norm(w_nonnormalised);
+d = -1/2*(min(w(y == 1)'*X) + max(w(y)))
 
-dists = abs(w*X' + d);
-sv = find(alphas >= 1e-10);
+
+
 
 
 
