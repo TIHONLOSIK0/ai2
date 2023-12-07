@@ -1,0 +1,97 @@
+
+<a href = "matlab: helpview('optim','quadprogipc_min_found','CSHelpWindow');">Minimum found that satisfies the constraints</a>.
+
+Optimization completed because the objective function is non-decreasing in 
+<a href = "matlab: helpview('optim','quadprog_feasible_direction','CSHelpWindow');">feasible directions</a>, to within the value of the <a href = "matlab: helpview('optim','optimality_tolerance_msgcsh','CSHelpWindow');">optimality tolerance</a>,
+and constraints are satisfied to within the value of the <a href = "matlab: helpview('optim','constraint_tolerance','CSHelpWindow');">constraint tolerance</a>.
+
+<<a href = "matlab: createExitMsg({'optimlib:ipqpcommon:Exit1basic'},{'optimlib:ipqpcommon:Exit1detailed','1.266702e-09','1.000000e-08','2.811076e-09','0.000000e+00','1.000000e-08'},true,true);;">stopping criteria details</a>>
+Test instance #1.
+-----------------
+Weight vector w = 
+    0.7071   -0.7071
+
+Distance d = 
+    0.3536
+
+Margin = 
+    0.3536
+
+Distances = 
+    0.3536    0.3536    0.3536    0.3536
+
+Lagrange multipliers = 
+    3.0000
+    1.0000
+    1.0000
+    3.0000
+
+Support vectors = 
+     1
+     2
+     3
+     4
+
+[Warning: The figure is too large for the page and will be cut off. Resize the figure, adjust the output size by setting
+the figure's PaperPosition property, use the 'print' command with either the  '-bestfit' or '-fillpage' options, or use
+the 'Best fit' or 'Fill page' options on the 'Print Preview' window.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m', 146)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m',146,0)">line 146</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('saveas', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m',181,0)">line 181</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('maxMargTest06', 'C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 6\maxMargTest06.m', 58)" style="font-weight:bold">maxMargTest06</a> (<a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 6\maxMargTest06.m',58,0)">line 58</a>)] 
+
+<a href = "matlab: helpview('optim','qp_step_fails','CSHelpWindow');">Unable to compute a step direction</a>.
+
+Problem may be ill-posed or solver tolerances may be too small. Stopping.
+
+Test instance #2.
+-----------------
+No solution found.
+ 
+[Warning: The figure is too large for the page and will be cut off. Resize the figure, adjust the output size by setting
+the figure's PaperPosition property, use the 'print' command with either the  '-bestfit' or '-fillpage' options, or use
+the 'Best fit' or 'Fill page' options on the 'Print Preview' window.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m', 146)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m',146,0)">line 146</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('saveas', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m',181,0)">line 181</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('maxMargTest06', 'C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 6\maxMargTest06.m', 108)" style="font-weight:bold">maxMargTest06</a> (<a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 6\maxMargTest06.m',108,0)">line 108</a>)] 
+
+<a href = "matlab: helpview('optim','quadprogipc_min_found','CSHelpWindow');">Minimum found that satisfies the constraints</a>.
+
+Optimization completed because the objective function is non-decreasing in 
+<a href = "matlab: helpview('optim','quadprog_feasible_direction','CSHelpWindow');">feasible directions</a>, to within the value of the <a href = "matlab: helpview('optim','optimality_tolerance_msgcsh','CSHelpWindow');">optimality tolerance</a>,
+and constraints are satisfied to within the value of the <a href = "matlab: helpview('optim','constraint_tolerance','CSHelpWindow');">constraint tolerance</a>.
+
+<<a href = "matlab: createExitMsg({'optimlib:ipqpcommon:Exit1basic'},{'optimlib:ipqpcommon:Exit1detailed','6.503110e-13','1.000000e-08','8.028739e-12','5.256906e-14','1.000000e-08'},true,true);;">stopping criteria details</a>>
+Test instance #3.
+-----------------
+Weight vector w = 
+    0.8321   -0.5547
+
+Distance d = 
+    0.1387
+
+Margin = 
+    0.4160
+
+Distances = 
+    0.4160    0.4160    0.6934    0.4160
+
+Lagrange multipliers = 
+    2.8889
+    2.0000
+    0.0000
+    0.8889
+
+Support vectors = 
+     1
+     2
+     4
+
+[Warning: The figure is too large for the page and will be cut off. Resize the figure, adjust the output size by setting
+the figure's PaperPosition property, use the 'print' command with either the  '-bestfit' or '-fillpage' options, or use
+the 'Best fit' or 'Fill page' options on the 'Print Preview' window.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m', 146)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\private\validate.m',146,0)">line 146</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('saveas', 'D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m',181,0)">line 181</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('maxMargTest06', 'C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 6\maxMargTest06.m', 157)" style="font-weight:bold">maxMargTest06</a> (<a href="matlab: opentoline('C:\Users\Tikhon\OneDrive\New Desktop\GERMANY\Artificial Intelligence II\Homework 6\maxMargTest06.m',157,0)">line 157</a>)] 
