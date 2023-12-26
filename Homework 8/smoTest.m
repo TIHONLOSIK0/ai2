@@ -1,40 +1,41 @@
-% STUDENT 1: Tikhon Riazantsev 382715
-% STUDENT 2: Agastya Heryudhanto 286824
-
 clear all;
 close all;
 clc;
 
 % Load data.
-load('07.mat');
+load('08.mat');
+
+% Set up parameters.
+C = 1000;
+eps = 0.001;
+maxIter = 1000;
 
 % Set up kernel.
 K = @(x, y) (x*y').^2;
 
-% Call dual QP with kernel.
-[alphas, idx] = maxMarg07( X, y, K );
+% Call SMO SVM with kernel.
+[alphas, idx, d] = smoTrain(X, y, K, C, eps, maxIter);
 
 % Consider only data points corresponding to non-zero alphas.
 alphas_idx = alphas(idx);
 X_idx = X(idx, :);
 y_idx = y(idx);
 
-% Initialize average d_0.
-d_0 = 0;
-
 % Initialize G(x) and grid.
 x1 = -1:0.02:1;
 x2 = -1:0.02:1;
 G = zeros(length(x1), length(x2));
 
-% Calculate average d_0.
-D = 1./y_idx - sum(alphas_idx.*y_idx'.*K(X_idx,X_idx));
-d_0 = sum(D)/length(D);
-
 % Calculate G(x) on grid.
-grid = meshgrid(x1,x2);
-allgridponts = [grid(:), reshape(grid'.)];
-G = sign(sum(alphas_idx.*y_idx'.*K(X_idx,[x1; x2]')) + d_0);
+for i = 1:length(x1)
+    for j = 1:length(x2)
+        G(i, j) = d;
+        for k = 1:numel(alphas_idx)
+            G(i, j) = G(i, j) + alphas_idx(k) * y_idx(k) * K([x1(i) x2(j)], X_idx(k, :));    
+        end
+        G(i, j) = sign(G(i, j));
+    end
+end
 
 % Plot given data and classification results.
 figure(1);
@@ -54,7 +55,7 @@ xlim([-1.1 1.1]);
 ylim([-1.1 1.1]);
 legend('+1', '- 1', 'Location', 'NorthEast') 
 subplot(1, 2, 2);
-surface(x1, x2, G, 'EdgeColor', 'none');
+surface(x1, x2, G', 'EdgeColor', 'none');
 xlabel('x_1', 'FontSize', 14, 'FontWeight', 'bold');
 ylabel('x_2', 'FontSize', 14, 'FontWeight', 'bold');
 title('Classification results', 'FontSize', 14, 'FontWeight', 'bold');
